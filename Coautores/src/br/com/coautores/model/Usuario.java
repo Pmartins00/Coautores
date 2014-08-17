@@ -28,10 +28,6 @@ public class Usuario {
 	
 	@Size(min=5)
 	private String email;
-
-	private String cx_representante;
-	
-	//List<Companhia> comapnhia;
 	
 	public Long getId_usuario() {
 		return id_usuario;
@@ -73,11 +69,4 @@ public class Usuario {
 		this.email = email;
 	}
 
-	public String getCx_representante() {
-		return cx_representante;
-	}
-
-	public void setCx_representante(String cx_representante) {
-		this.cx_representante = cx_representante;
-	}
 }
