@@ -9,6 +9,8 @@ public class ConnectionFactory {
 	public Connection getConnection() {
 				
 		try {
+			
+			
 			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 			return DriverManager.getConnection("jdbc:mysql://localhost:3306/coautores", "root", "wegcestari");
 		} catch (SQLException e) {
