@@ -20,16 +20,8 @@ public class LoginController {
 	@Autowired
 	UsuarioDao dao;
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	@RequestMapping("index")
-	public String acessoTESTE() {
+	public String acessoTESTE03() {
 		return "index/index";
 	}
 	
