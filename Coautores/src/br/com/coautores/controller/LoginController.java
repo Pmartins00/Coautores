@@ -21,7 +21,7 @@ public class LoginController {
 	UsuarioDao dao;
 	
 	@RequestMapping("index")
-	public String acessoTTTTTTT() {
+	public String acessoKKKKKKK() {
 		return "index/index";
 	}
 	
